@@ -7,7 +7,7 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": false,
     "draftAndPublish": true
   },
   "attributes": {
@@ -27,7 +27,7 @@
       "required": true,
       "unique": false
     },
-    "mainimage": {
+    "mainImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -36,7 +36,7 @@
       "plugin": "upload",
       "required": true
     },
-    "additionalimages": {
+    "additionalImages": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -45,7 +45,8 @@
       "plugin": "upload",
       "required": false
     },
-    "collectionid": {
+    "collectionId": {
+      "columnName": "collection",
       "model": "collections"
     }
   }

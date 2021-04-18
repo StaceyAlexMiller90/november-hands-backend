@@ -2,7 +2,7 @@
   "name": "november-hands",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "November Hands CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -13,19 +13,21 @@
   "dependencies": {
     "knex": "<0.20.0",
     "pg": "latest",
-    "strapi": "3.4.3",
+    "strapi": "^3.5.4",
     "strapi-admin": "3.4.3",
     "strapi-connector-bookshelf": "3.4.3",
     "strapi-plugin-content-manager": "3.4.3",
     "strapi-plugin-content-type-builder": "3.4.3",
-    "strapi-plugin-email": "3.4.3",
+    "strapi-plugin-email": "^3.5.4",
     "strapi-plugin-graphql": "3.4.3",
     "strapi-plugin-upload": "3.4.3",
-    "strapi-plugin-users-permissions": "3.4.3",
+    "strapi-plugin-users-permissions": "^3.5.4",
+    "strapi-provider-email-nodemailer": "^3.5.4",
+    "strapi-provider-upload-cloudinary": "^3.5.2",
     "strapi-utils": "3.4.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Stacey Miller"
   },
   "strapi": {
     "uuid": "87f544ce-f2a1-4d27-8082-fad819275345"
